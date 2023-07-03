@@ -22,8 +22,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
     height: 40px;
     padding: 10px;
+    width: 1000px;
 }
 
 nav li {
@@ -35,7 +38,7 @@ nav a {
 }
 
 .nav-links a {
-    color: gray;
+    color: rgb(0, 0, 0);
     margin: 10px 30px;
     font-family: 'Roboto', sans-serif;
     
@@ -44,6 +47,7 @@ main {
     width: 100vw;
     display: flex;
     height: 70vh;
+    border-bottom: 2px solid black;
 }
 
 .main-image {
@@ -52,22 +56,33 @@ main {
     background-size: cover;
     height: 100%;
     width: 50%;
+    border: none;
+    border-radius:  0px 100px 15px 0px;
+    position: relative;
 }
+
+
 
 .main-text {
     height: 100%;
-    width: 50%;
+    width: 500px;
     text-align: left;
     padding-left: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
+    padding: 30px;
     font-family: 'Roboto', sans-serif;
 }
 
 .main-text h1 {
     font-size: 50px;
+}
+
+button {
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .main-btn {
@@ -145,4 +160,98 @@ main {
 .container-box h5 {
     font-size: 20px;
     color:#f1c50e;
+}
+
+.sec-2 {
+    width: 100vw;
+    height: 50vh;
+    background: url(img/section-background.jpg);
+    background-size: cover;
+    object-fit: contain;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sec-2-text {
+    width: 620px;
+}
+.sec-2 h2 {
+    font-size: 35px;
+    padding: 10px;
+}
+
+.sec-2 p {
+    font-size: 20px;
+    padding: 40px;
+}
+
+.sec-2-btn {
+    width: 620px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-yellow {
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    padding: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border: none;
+    
+    letter-spacing: 1px;
+}
+
+.btn-white {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    font-size: 13px;
+    padding: 15px;
+    font-weight: bold;
+    
+    text-transform: uppercase;
+    border-radius: 30px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.info-items {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-items-title h2{
+    font-size: 35px;
+}
+
+.info-items h3 {
+    font-weight: bold;
+}
+
+.info-items-container {
+    display: flex;
+}
+
+.info-items-box-icon img {
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+}
+
+.info-items-box {
+    display: flex;
+    width: 350px;
+}
+
+.info-items-box p {
+    margin-top: 5px;
 }
