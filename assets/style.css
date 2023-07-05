@@ -255,3 +255,98 @@ button {
 .info-items-box p {
     margin-top: 5px;
 }
+
+.sweets-section {
+    width: 100vw;
+    height: 80vh;
+    background: url(./img/doces.jpg);
+    background-size: cover;
+    object-fit: contain;
+    background-position: center;
+    text-align: left;
+}
+.sweets-section-title {
+    display: flex;
+    justify-content: center;
+}
+
+.sweets-section h2 {
+    color: white;
+    font-size: 42px;
+    padding: 40px;
+
+}
+.sweets-section h3 {
+    font-weight: bold;
+    padding: 2px 20px;
+}
+.sweets-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.sweets-container-box {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin: 25px 10px;
+}
+
+.sweets-container-box ul li {
+    list-style:none;
+    margin-top: 20px;
+    padding: 4px 20px;
+}
+
+.contact-section {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    background: url(./img/contact-background.jpg)
+}
+
+.contact-section-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50vw;
+    height: 80vh;
+
+}
+.text {
+    color: white;
+    text-align: center;
+}
+
+.text h3 {
+    padding: 5px;
+}
+
+.contact-section-image {
+    background: url(./img/contact.jpg);
+    background-size: cover;
+    background-position: center;
+    position:absolute;
+    right: 0;
+    width: 50vw;
+    height: 80vh;
+}
+
+
+footer {
+    background-color: rgb(39, 41, 38);
+    width: 100vw;
+    height: 20vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer a {
+    color: red;
+}
